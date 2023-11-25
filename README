@@ -1,0 +1,34 @@
+The mini shell 
+Authored by Helena Khalilieh 
+
+•	Description:
+To use this program we have to run the file ex2a on terminal, you can type any command you want and then enter.In this ex we have to build a simple shell that takes commands and send them to the op If you finished using the file then press done and the program will show you how many commands you typed,"Total number of words in all commands" 
+
+•	Program Files:
+Ex2a: it contains all the program of the shell 
+Ex2b: it have functions like ex1 to save the commad in the history and then create file
+1-int list_add(const char * word) : Add word to the list
+2-int load_list(const char * filename):Load the words from file to list
+3-int save_list(const char * filename):Save the words from list to file
+
+•	How to compile?
+Compile: gcc main1.c -o main1
+ Run: /ex2a.
+Compile: gcc main2.c -o main2
+ Run: /ex2b.
+
+•	Input main1: 
+the user print any commad he wants
+
+•	Output main1:
+the computer gives him what the commad line do and in the end how many words in all commands 
+
+•	Input main2: 
+the user print any commad he wants + using the history commands by the "!" 
+
+•	Output main2:
+the computer gives him what the commad line do and in the end it create a history file that puts all the used commands in it  
+  
+
+
+
